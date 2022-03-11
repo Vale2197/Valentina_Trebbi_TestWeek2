@@ -1,4 +1,6 @@
-﻿using System;
+﻿using esercitazione_code.MieClassi;
+using System;
+using System.Collections;
 
 namespace esercitazione_code
 {
@@ -6,7 +8,10 @@ namespace esercitazione_code
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("**GESTIONE AGENDA**");
+            ArrayList iMieiTasks = new ArrayList();
+
+
         }
     }
 }
