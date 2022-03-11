@@ -8,6 +8,7 @@ namespace esercitazione_code
     {
         static void Main(string[] args)
         {
+           
             Console.WriteLine("**GESTIONE AGENDA**");
             ArrayList iMieiTasks = new ArrayList();
             bool program = true;
@@ -30,8 +31,8 @@ namespace esercitazione_code
                         int livello = Task.LeggiLivelloPriorita();
 
                         Task newTask = Task.CreaTask(myDesc, dataScadenza, livello);
-
                         iMieiTasks.Add(newTask);
+                        GestoreFile.ScritturaTasksSuFile(iMieiTasks);
                         break;
                     case 2:
 
