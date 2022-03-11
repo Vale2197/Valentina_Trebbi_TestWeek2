@@ -34,8 +34,8 @@ namespace esercitazione_code
                         iMieiTasks.Add(newTask);
                         GestoreFile.ScritturaTasksSuFile(iMieiTasks);
                         break;
-                    case 2:
 
+                    case 2:
                         Task.VerificaPresenzaTask(iMieiTasks);
                         break;
                     case 3:

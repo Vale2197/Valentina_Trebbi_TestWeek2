@@ -154,7 +154,12 @@ namespace esercitazione_code.MieClassi
 
             if(selezionePerLivello.Count > 0)
             {
-                StampaListaTask(selezionePerLivello);
+                foreach(Task task in selezionePerLivello)
+                {
+                     task.StampaSingoloTask();
+                    Console.WriteLine();
+                }
+               
             }
             else
             {
