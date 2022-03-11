@@ -8,9 +8,9 @@ namespace esercitazione_code
     {
         static void Main(string[] args)
         {
-           
+            
             Console.WriteLine("**GESTIONE AGENDA**");
-            ArrayList iMieiTasks = new ArrayList();
+            ArrayList iMieiTasks = GestoreFile.LetturaDaFile();
             bool program = true;
 
             do
@@ -40,6 +40,7 @@ namespace esercitazione_code
                         break;
                     case 3:
                         Task.RimuoviTask(iMieiTasks);
+                        GestoreFile.ScritturaTasksSuFile(iMieiTasks);
                         break;
                     case 4:
                         Task.RicercaPerLivello(iMieiTasks);

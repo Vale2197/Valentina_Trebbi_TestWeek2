@@ -25,7 +25,7 @@ namespace esercitazione_code.MieClassi
 
         public static ArrayList LetturaDaFile()
         {
-            ArrayList myArray = new ArrayList();
+            ArrayList arrayTasks = new ArrayList();
 
             try
             {
@@ -33,11 +33,24 @@ namespace esercitazione_code.MieClassi
 
                 using (StreamReader sr = new StreamReader(path))
                 {
-                    while (sr.ReadLine() != null)
-                    {
-                        myArray.Add(sr.ReadLine());
-                        sr.ReadLine();
 
+                    string[] stringhe = File.ReadAllLines(path);
+
+                    for (int i = 0; i < stringhe.Length; i++)
+                    {
+                        if (i > 0)
+                        {
+                            string taskPart = stringhe[i];
+                            string[] taskParts = taskPart.Split('|');
+
+                            Task taskDaFile = new Task();
+
+                            taskDaFile.Description = taskParts[0];
+                            taskDaFile.DataScadenza = DateTime.Parse(taskParts[1]);
+                            taskDaFile.LivelloPriorita = int.Parse(taskParts[2]);
+
+                            arrayTasks.Add(taskDaFile);
+                        }
                     }
                 }
 
@@ -45,10 +58,11 @@ namespace esercitazione_code.MieClassi
             catch (Exception ex)
             {
 
-                Console.WriteLine($"non esistono ancora task registrati..");
+                Console.WriteLine($"La tua agenda al momento è vuota");
+                Console.WriteLine();
             }
 
-            return myArray;
+            return arrayTasks;
         }
     }
 }
