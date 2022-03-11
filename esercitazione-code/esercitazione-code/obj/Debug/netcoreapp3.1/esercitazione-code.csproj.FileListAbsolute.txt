@@ -1,0 +1,14 @@
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\bin\Debug\netcoreapp3.1\esercitazione-code.exe
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\bin\Debug\netcoreapp3.1\esercitazione-code.deps.json
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\bin\Debug\netcoreapp3.1\esercitazione-code.runtimeconfig.json
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\bin\Debug\netcoreapp3.1\esercitazione-code.runtimeconfig.dev.json
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\bin\Debug\netcoreapp3.1\esercitazione-code.dll
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\bin\Debug\netcoreapp3.1\esercitazione-code.pdb
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\obj\Debug\netcoreapp3.1\esercitazione-code.csproj.AssemblyReference.cache
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\obj\Debug\netcoreapp3.1\esercitazione-code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\obj\Debug\netcoreapp3.1\esercitazione-code.AssemblyInfoInputs.cache
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\obj\Debug\netcoreapp3.1\esercitazione-code.AssemblyInfo.cs
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\obj\Debug\netcoreapp3.1\esercitazione-code.csproj.CoreCompileInputs.cache
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\obj\Debug\netcoreapp3.1\esercitazione-code.dll
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\obj\Debug\netcoreapp3.1\esercitazione-code.pdb
+C:\Users\vave1\Desktop\c#-.NET\esercitazione.week.2\esercitazione-code\esercitazione-code\obj\Debug\netcoreapp3.1\esercitazione-code.genruntimeconfig.cache

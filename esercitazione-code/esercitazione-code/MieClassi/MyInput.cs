@@ -10,14 +10,15 @@ namespace esercitazione_code.MieClassi
         {
             int num;
 
-            while (int.TryParse(Console.ReadLine(), out num) || num < 0)
+            while (!int.TryParse(Console.ReadLine(), out num) || num < 0)
             {
-                Console.WriteLine("numero non corretto");
+                Console.WriteLine("inserisci numero");
+
             }
 
             return num;
         }
 
-       
+
     }
 }
